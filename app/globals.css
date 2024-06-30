@@ -2,3 +2,15 @@
 @tailwind components;
 @tailwind utilities;
   
+
+@layer components {
+    .account-form_file-input {
+        @apply bg-dark-4 file:text-blue mt-0 border-none text-white !important;
+    }
+    .account-form_input-text {
+        @apply bg-dark-4 mt-0 border-none text-white !important;
+    }
+    .account-form_image-label {
+        @apply bg-dark-4 flex aspect-square items-center justify-center rounded-full !important;
+    }
+}

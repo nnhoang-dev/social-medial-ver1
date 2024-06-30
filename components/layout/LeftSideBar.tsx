@@ -7,7 +7,6 @@ import { usePathname, useRouter } from 'next/navigation';
 
 import logout from '../../assets/logout.svg';
 import { SignOutButton, SignedIn, SignedOut } from '@clerk/nextjs';
-import { HomeIcon } from '@/lib/svg';
 
 const LeftSideBar = () => {
     // const route = useRouter();
@@ -43,8 +42,8 @@ const LeftSideBar = () => {
                         <Image
                             src={logout}
                             alt="logout"
-                            width={20}
-                            height={20}
+                            width={16}
+                            height={16}
                         />
                     </div>
                 </SignOutButton>
